@@ -39,10 +39,7 @@ Our DeFi (Decentralized Finance) Token Staking Dapp is an innovative and user-fr
 
 ## Screenshots
 
-![App Screenshot](blob:https://web.whatsapp.com/5a4608dc-0f1e-4981-98af-f7593aa39327)
-
-![App Screenshot](blob:https://web.whatsapp.com/5a4608dc-0f1e-4981-98af-f7593aa39327)
-
-![App Screenshot](blob:https://web.whatsapp.com/5a4608dc-0f1e-4981-98af-f7593aa39327)
-
-![App Screenshot](blob:https://web.whatsapp.com/5a4608dc-0f1e-4981-98af-f7593aa39327)
+![App Screenshot](./assets/readme/WhatsApp%20Image%202023-10-29%20at%202.26.44%20PM.jpeg)
+![App Screenshot](./assets/readme/2.jpeg)
+![App Screenshot](./assets/readme/3.jpeg)
+![App Screenshot](./assets/readme/4.jpeg)
