@@ -3,7 +3,360 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
+    <title>Token Staking Dapp</title>
+    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/notyf/notyf.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body></body>
+  <body>
+  <!--PRELOADER-->
+
+  <div id="gameon_preloader" class="gameon_preloader">
+    <div class="preloader-animation">
+      <div class="spinner"></div>
+        <p class="fw-5 text-center text-uppercase"></p>
+    </div>
+
+    <div class="loader-animation">
+      <div class="row h-100">
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--PRELOADER END-->
+
+  <!--MAIN START-->
+
+  <div class="main">
+    <header id="header">
+      <nav data-aos="zoom-out" data-aos-dealay="800" class="navbar gameon-navbar navbar-expand">
+        <div class="container header">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/img/logo/logo.png" alt="logo">
+          </a>
+          <div class="ml-auto"></div>
+          <ul class="navbar-nav items mx-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link active">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="project-2.html" class="nav-link">
+                Project
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a href="staking-1.html" class="nav-link ">
+                Staking
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a href="contact.html" class="nav-link ">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a href="register.html" class="nav-link ">
+                Register
+              </a>
+            </li><li class="nav-item ">
+              <a href="analytic.html" class="nav-link ">
+                Analytic
+              </a>
+          </ul>
+          <ul class="navbar-nav icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
+                <i class="icon-magnifier"></i>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav toggle">
+            <li class="nav-item">
+              <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                <i class="icon-menu"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!--NAVBAR ACTION BUTTON-->
+          <ul class="navbar-nav action">
+            <li class="nav-item ml-2">
+              <a class="btn ml-lg-auto btn-bordered-white">
+                <i class="icon-wallet mr-md-2"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+
+    <!--BREADCRUMB SECTION START-->
+    <section class="breadcrumb-area overlay-dark d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="breadcrumb-content text-center">
+              <h2 class="m-0">Project</h2>
+              <ol class="breadcrumb d-flex justify-content-center">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Project</a>
+                </li>
+                <li class="breadcrumb-item active">
+                  <a href="#">Project</a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--BREADCRUMB SECTION END-->
+
+    <!--STACKING COMPONENT START-->
+    <section class="stacking-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7">
+            <div class="card no-hover stacking-card single-stacking">
+              <h3 class="m-0"> Participate IGO Stake</h3>
+              <span class="balance">256.50 USDT</span>
+
+              <ul class="nav nav-tabs stacking-tabs border-0 my-3 my-md-4" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="tab-link active" id="tab-one-tab" data-toggle="tab" href="#tab-one" role="tab" aria-controls="tab-one" aria-selected="true" name="sevenDays" onclick="openTab(event, 'sevenDays')">7 Days</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="tab-link " id="tab-two-tab" data-toggle="tab" href="#tab-two" role="tab" aria-controls="tab-two" aria-selected="false" name="tenDays" onclick="openTab(event, 'tenDays')">10 Days</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="tab-link " id="tab-three-tab" data-toggle="tab" href="#tab-three" role="tab" aria-controls="tab-three" aria-selected="false" name="thirtyTwoDays" onclick="openTab(event, 'thirtyTwoDays')">32 Days</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="tab-link " id="tab-four-tab" data-toggle="tab" href="#tab-four" role="tab" aria-controls="tab-four" aria-selected="false" name="ninetyDays" onclick="openTab(event, 'ninetyDays')">90 Days</a>
+                </li>
+              </ul>
+
+              <!--BODY-->
+
+              <div class="tab-content mt-md-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one-tab">
+                  <div class="stacking-tab-content">
+                    <div class="info-box d-flex justify-content-between">
+                      <div class="info-left">
+                        <ul class="list-unstyled">
+                          <li>
+                            <strong>Lock period:</strong>
+                            <span class="Lock-period-value"></span>
+                          </li><li>
+                            <strong>Extended lock on registration:</strong>Yes
+                          </li>
+                          <li>
+                            <strong>Early Unstake Fee:</strong><span class="early-unstake-fee-value">30%</span>
+                          </li>
+                          <li>
+                            <strong>Minimum Staking Amount:</strong><span class="Minimum-Staking-Amount">0</span>
+                          </li>
+                          <li>
+                            <strong>Maximum Staking Amount:</strong><span class="Maximum-Staking-Amount">100</span>
+                          </li>
+                          <li>
+                            <strong>Status:</strong><span class="active-status-staking">Unlocked</span>
+                          </li>
+                          <li>
+                            <strong>Additional Rewards:</strong>NA
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--STACKING COMPONENT END-->
+
+    <!--CTA START-->
+    <section class="cta-area p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 card">
+            <div class="col-12 col-md-5 text-center">
+              <img src="assets/img/content/cta_thumb.png" alt="">
+            </div>
+            <div class="col-12 col-md-6 mt-md-0">
+              <h2 class="m-0">Apply for IGO</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, hic! Tempora, iure itaque? Asperiores.</p>
+              <a href="#" class="btn btn-bordered active d-inline-block">
+                <i class="icon-rocket mr-2"></i>Apply Now
+              </a>
+            </div>
+          </div>
+          <a href="#" class="cta-link"></a>
+        </div>
+      </div>
+    </section>
+    <!--CTA END-->
+
+    <!--FOOTER START-->
+
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <div class="footer-items">
+              <a href="index.html" class="navbar-brand">
+                <img src="assets/img/logo/logo.png" alt="logo"></a>
+
+                <div class="social-icons d-flex justify-content-center my-4">
+                  <a href="#" class="facebook" target="_blank">
+                    <i class="icon-social-facebook"></i>
+                    <i class="icon-social-facebook"></i>
+                  </a>
+                  <a href="#" class="twitter" target="_blank">
+                    <i class="icon-social-twitter"></i>
+                    <i class="icon-social-twitter"></i>
+                  </a>
+                  <a href="#" class="linkedin" target="_blank">
+                    <i class="icon-social-linkedin"></i>
+                    <i class="icon-social-linkedin"></i>
+                  </a>
+                  <a href="#" class="reddit" target="_blank">
+                    <i class="icon-social-reddit"></i>
+                    <i class="icon-social-reddit"></i>
+                  </a>
+                  <a href="#" class="youtube" target="_blank">
+                    <i class="icon-social-youtube"></i>
+                    <i class="icon-social-youtube"></i>
+                  </a>
+                </div>
+
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#">Roadmap</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">How It Works</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Blog</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+
+                <div class="copyright-area py-4">
+                  &copy;2023 @theblockchaincoders, All Rights Reserved By <a href="https://www.theblockchaincoders.com" target="_blank">
+                    @theblockchaincoders
+                  </a>
+                </div>
+              
+            </div>
+
+            <div class="scroll-to-top" id="scroll-to-top">
+              <a href="#header" class="smooth-anchor">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--FOOTER END-->
+
+    <!--MODEL SEARCH AREA START-->
+
+    <div id="search" class="modal fade p-0">
+      <div class="modal-dialog dialog-animated">
+        <div class="modal-content h-100">
+        <div class="modal-header" data-dismiss="modal">
+          Search <i class="far fa-times-circle icon-close"></i>
+        </div>
+
+        <div class="modal-body">
+          <form class="row">
+            <div class="col-12 align-self-center">
+              <div class="row">
+                <div class="col-12 pb-3">
+                  <h3 class="search-title mt-0 mb-3">
+                    What are you looking for?
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 input-group mt-md-4">
+                  <input type="text" placeholder="Enter your keywords">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 input-group align-self-center">
+                  <button class="btn btn-bordered-white mt-3">Search</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!--MODEL SEARCH AREA END-->
+
+    <!--MODAL RESPOSIVE MENU START-->
+    <div id="menu" class="modal fade p-0">
+      <div class="modal-dialog dialog-animated">
+        <div class="modal-content h-100">
+          <div class="modal-header" data-dismiss="modal">
+            Menu <i class="far fa-times-circle icon-cneter"></i>
+          </div>
+          <div class="menu modal-body">
+            <div class="roe w-100">
+              <div class="items p-0 col-12 text-center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--MODAL RESPOSIVE MENU END-->
+  <!--MAIN END-->
+
+  <!--SCRIPTS-->
+
+  <script src="assets/js/vendor/jquery.min.js"></script>
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <script src="assets/js/vendor/all.min.js"></script>
+  <script src="assets/js/vendor/gallery.min.js"></script>
+  <script src="assets/js/vendor/slider.min.js"></script>
+  <script src="assets/js/vendor/countdown.min.js"></script>
+  <script src="assets/js/vendor/shuffle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/notyf/notyf.min.js"></script>
+  
+  </body>
 </html>
