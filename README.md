@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+# DeFi-Cross-Chain-Token-Staking-Web3
+A decentralized DeFi Token Staking Application, that supports cross chain staking contractuals.
+
+# IMPORTANT LINK FOR PROJECT
+>>>>>>> db10dc0a8cc9740403e79b67fdcae471a5e7fe6f
 
 # DeFi Token Staking Dapp
 
