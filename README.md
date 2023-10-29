@@ -1,26 +1,52 @@
+<<<<<<< HEAD
+=======
 # DeFi-Cross-Chain-Token-Staking-Web3
 A decentralized DeFi Token Staking Application, that supports cross chain staking contractuals.
 
 # IMPORTANT LINK FOR PROJECT
+>>>>>>> db10dc0a8cc9740403e79b67fdcae471a5e7fe6f
 
-@theblockchaincoders
+# DeFi Token Staking Dapp
 
-Build your web3 Dapp "Token Stacking Dapp Project", in which you can provide users to stack their ERC20 token and earn reward, you can also provide multiple token stacking contract.
+Our DeFi (Decentralized Finance) Token Staking Dapp is an innovative and user-friendly platform that allows cryptocurrency holders to maximize their earnings by participating in the staking of various tokens. Staking is a popular method in the blockchain ecosystem that enables users to earn rewards by locking up their digital assets in a secure and transparent manner. Our Dapp is designed to provide a seamless and secure staking experience, allowing users to earn passive income while supporting the operation of various blockchain networks.
 
-Watch video:
 
-Resource
 
-Final-Code: https://www.theblockchaincoders.com/sourceCode/build-token-stacking-dapp-from-scratch
+## 🛠 Technologies Used
 
-Starter-file: [https://github.com/daulathussain/nfts-api-starter-file](https://github.com/daulathussain/token-stacking-dapp-starter-file)
+- Ethereum
+- Solidity
+- WanChain
+- Truffle
+- WanMask Wallet
+- Wan X SDK
+- Web3.js
+- HTML + CSS
 
-Get Pro Course "AI Movie APP": https://bit.ly/AI-Movie-App-Course
+### Team Members:
 
-Support Creator: https://bit.ly/Support-Creator
+1) Sai Srinivasa Vara Prasad Korlam
+ - GitHub - [Vara Prasad](https://github.com/iamthebenison)
+- Email - iamthebenison@gmail.com
 
-All Projects Source Code: https://www.theblockchaincoders.com/SourceCode
 
-Official Website: https://www.theblockchaincoders.com
+2) Manideep Reddy S:
+- GitHub - [Manideep](https://github.com/manideep2003)
+- Email - saimanideep2015@gmail.com
 
-Book 1 -1 Appointment: https://bit.ly/Book-1-1-Appointment
+3) Rahul Kumar Das:
+- GitHub - [Rahul](https://github.com/rahuldas-404)
+- Email - rahulkd403@gmail.com
+
+4) Manideep Reddy S:
+- GitHub - [manoj](https://github.com/manoj-kumar-j)
+- Email - manojkumarjetti2002@gmail.com
+
+
+
+## Screenshots
+
+![App Screenshot](./assets/readme/WhatsApp%20Image%202023-10-29%20at%202.26.44%20PM.jpeg)
+![App Screenshot](./assets/readme/2.jpeg)
+![App Screenshot](./assets/readme/3.jpeg)
+![App Screenshot](./assets/readme/4.jpeg)
